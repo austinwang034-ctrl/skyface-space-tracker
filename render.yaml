@@ -3,12 +3,5 @@ services:
   - type: web
     name: skyface-space-tracker
     runtime: docker
-    plan: starter            # a persistent disk needs a paid plan; delete the disk block to run without one
+    plan: free            # a persistent disk needs a paid plan; delete the disk block to run without one
     healthCheckPath: /api/health
-    envVars:
-      - key: SPHEREX_VIEWER_CACHE
-        value: /data
-    disk:
-      name: tracker-cache
-      mountPath: /data
-      sizeGB: 5
