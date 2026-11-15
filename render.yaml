@@ -1,7 +1,0 @@
-# Render Blueprint: New > Blueprint > pick your GitHub repo.
-services:
-  - type: web
-    name: skyface-space-tracker
-    runtime: docker
-    plan: free            # a persistent disk needs a paid plan; delete the disk block to run without one
-    healthCheckPath: /api/health
