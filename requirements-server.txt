@@ -1,0 +1,14 @@
+# Exact versions the site was tested with on Python 3.12, so a deploy next month builds the same
+# site as today. To upgrade, change a number here and run the tests.
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.1
+astropy==8.0.2
+astroquery==0.4.11
+pyvo==1.10.0
+reproject==0.21.0
+photutils==3.1.1
+pillow==13.0.0
+requests==2.34.2
+fastapi==0.163.1
+uvicorn[standard]==0.54.0
